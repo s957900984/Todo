@@ -1,0 +1,94 @@
+body{
+	background: url(../images/2.jpg) no-repeat;
+}
+#logout{
+	font-size: 15px;
+	color: blue;
+}
+li{
+	width:200px;
+}
+#container{
+	width: 1200px;
+	margin: auto;
+	margin-top: 6%;
+	overflow: auto;
+	padding-top: 10px;
+	background-color:rgba(255, 255, 255, 0.603)
+}
+
+#cover{
+	width: 1200px;
+	height: 800px;
+	background: rgba(244,244,244,.6);
+	z-index: 50;
+	position: absolute;
+	display: none;
+}
+#addList{
+	width: 450px;
+	height: 120px;
+	background: wheat;
+	z-index: 100;
+	position: absolute;
+	left: 460px;
+	top: 250px;
+	border-radius: 5px;
+	padding: 40px 40px;
+	display: none;
+}
+
+#addList_input{
+	width: 250px;
+	margin-right: 20px;
+}
+#search_input{
+	width: 130px;
+}
+.task_head{
+	width:100%;
+	background-color:rgba(255, 255, 255, 0.603);
+	height: 50px;
+	font-size: 30px;
+}
+.search_icon{
+	width: 30px;
+}
+
+.table .time{
+	width: 30%;
+	float: left;
+}
+
+.sparator{
+	width: 5%;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+table tr th,td{
+	text-align: center;
+}
+
+.icon{
+	float: right;
+	width: 10%;
+	cursor: pointer;
+}
+
+.list{
+	padding-right: 5px;
+}
+
+.list a{
+	width: 90%;
+}
+
+.btn-orange{
+	background: orange;
+	color: white;
+}
+
